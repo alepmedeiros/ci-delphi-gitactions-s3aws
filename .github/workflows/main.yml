@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: Publish
+    - name: Public
       uses: alepmedeiros/scp-deploy@v1
       with:
         src: .
