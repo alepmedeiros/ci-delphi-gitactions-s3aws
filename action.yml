@@ -1,0 +1,30 @@
+name: 'SSH-SCP deploy action'
+description: 'Action to send dist files/access to a remote server with scp/ssh command'
+author: 'Alessandro Medeiros'
+inputs:
+  src:
+    description: 'Sorce dir to deploy'
+    required: true
+  host:
+    description: 'SSH address'
+    required: true
+  remote:
+    description: 'Remote dir path'
+    required: true
+  port:
+    description: 'SSH Port'
+    required: false
+    default: 22
+  user:
+    description: 'SSH User name'
+    required: true
+  key:
+    description: 'Private key'
+    required: true
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+
