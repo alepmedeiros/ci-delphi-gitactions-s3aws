@@ -3,7 +3,7 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: [self-hosted, Windows, X64]
-    name: A job to say hello
+    name: Full Cycle intensive Delphi
     steps:
       - name: Testando script
         run: c:\lixo\executa.bat
