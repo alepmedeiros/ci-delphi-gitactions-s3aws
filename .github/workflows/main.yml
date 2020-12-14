@@ -1,4 +1,4 @@
-name: Build and deploy / Delphi with aws S3
+name: Build and deploy Delphi with aws S3
 
 on: 
   push:
