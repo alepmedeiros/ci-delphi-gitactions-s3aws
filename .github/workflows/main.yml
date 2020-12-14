@@ -6,5 +6,7 @@ jobs:
     name: Full Cycle intensive Delphi
 
     steps:
+      - uses: actions/checkout@v2
+        
       - name: Teste unitario
         run: c:\lixo\build.bat $GITHUB_WORKFLOW InensiveDelphi2020.dproj
