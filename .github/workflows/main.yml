@@ -7,10 +7,8 @@ on:
 jobs:
   test:
     runs-on: [self-hosted, Windows, X64]
-    
     steps:
-      - name: Checkout repository
       - uses: actions/checkout@v2
-      
+        
       - name: Test unit
         run: c:\lixo\build.bat $GITHUB_WORKFLOW\Test TesteUnitarioProjeto.dproj
