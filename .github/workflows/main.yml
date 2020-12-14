@@ -1,12 +1,27 @@
-on: [push]
+name: Build and deploy / Delphi with aws S3
+
+on: 
+  push:
+    branches: [ master ]
 
 jobs:
-  setup:
+  test:
     runs-on: [self-hosted, Windows, X64]
-    name: Full Cycle intensive Delphi
+    
+    steps:
+      - name: Checkout repository
+      - uses: actions/checkout@v2
+      
+      - name: Test unit
+        run: c:\lixo\build.bat $GITHUB_WORKFLOW\Test TesteUnitarioProjeto.dproj
+      
+  build:
+    needs: test
+    runs-on: [self-hosted, Windows, X64]
 
     steps:
+      - name: Checkout do repositório
       - uses: actions/checkout@v2
         
-      - name: Teste unitario
+      - name: Build project main
         run: c:\lixo\build.bat $GITHUB_WORKFLOW InensiveDelphi2020.dproj
