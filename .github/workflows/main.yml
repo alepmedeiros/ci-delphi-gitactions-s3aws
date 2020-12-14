@@ -20,7 +20,7 @@ jobs:
     runs-on: [self-hosted, Windows, X64]
 
     steps:
-      - name: Checkout do repositório
+      - name: Checkout repository
       - uses: actions/checkout@v2
         
       - name: Build project main
