@@ -1,9 +1,10 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  setup:
     runs-on: [self-hosted, Windows, X64]
     name: Full Cycle intensive Delphi
+
     steps:
-      - name: Testando script
-        run: c:\lixo\executa.bat
+      - name: Teste unitario
+        run: c:\lixo\build.bat $GITHUB_WORKFLOW\Test TesteUnitarioProjeto.dproj
