@@ -6,3 +6,4 @@ jobs:
     name: A job to say hello
     steps:
       - uses: actions/checkout@master
+        run: c:\lixo\executa.bat
