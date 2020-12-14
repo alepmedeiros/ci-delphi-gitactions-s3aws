@@ -6,4 +6,4 @@ jobs:
     name: A job to say hello
     steps:
       - name: Testando script
-        run: echo "Executando comandos"
+        run: c:\lixo\executa.bat
