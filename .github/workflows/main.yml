@@ -6,10 +6,7 @@ jobs:
     name: Full Cycle intensive Delphi
 
     steps:
-<<<<<<< HEAD
       - name: Teste unitario
         run: c:\lixo\build.bat $GITHUB_WORKFLOW\Test TesteUnitarioProjeto.dproj
-=======
       - name: Testando script 2
         run: c:\lixo\executa.bat
->>>>>>> 8c30e52f73a4a78a96d5956d518f659cd0abf04e
