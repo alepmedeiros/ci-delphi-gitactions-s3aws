@@ -7,4 +7,4 @@ jobs:
 
     steps:
       - name: Teste unitario
-        run: c:\lixo\build.bat $GITHUB_WORKFLOW\Test TesteUnitarioProjeto.dproj
+        run: c:\lixo\build.bat $GITHUB_WORKFLOW InensiveDelphi2020.dproj
