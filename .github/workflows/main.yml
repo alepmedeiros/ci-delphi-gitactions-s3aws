@@ -5,7 +5,5 @@ jobs:
     runs-on: [self-hosted, Windows, X64]
     name: A job to say hello
     steps:
-      - uses: actions/checkout@master
-    steps:
-      - name: Executa bat
+      - name: Testando script
         run: c:\lixo\executa.bat
