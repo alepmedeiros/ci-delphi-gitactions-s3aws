@@ -5,5 +5,5 @@ jobs:
     runs-on: [self-hosted, Windows, X64]
     name: Full Cycle intensive Delphi
     steps:
-      - name: Testando script
+      - name: Testando script 2
         run: c:\lixo\executa.bat
