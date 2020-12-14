@@ -8,5 +8,3 @@ jobs:
     steps:
       - name: Teste unitario
         run: c:\lixo\build.bat $GITHUB_WORKFLOW\Test TesteUnitarioProjeto.dproj
-      - name: Testando script 2
-        run: c:\lixo\executa.bat
