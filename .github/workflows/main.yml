@@ -22,7 +22,7 @@ jobs:
       - name: Build aplication
         run: c:\lixo\build.bat . InensiveDelphi2020.dproj
         
-      - name: Artipie upload action
-        uses: artipie/upload-action@v0.2.1
+      - uses: actions/upload-artifact@v2
         with:
-          file: .\Win32\Debug\InensiveDelphi2020.exe
+          name: myartifact
+          path: Win32\Debug\InensiveDelphi2020.exe
