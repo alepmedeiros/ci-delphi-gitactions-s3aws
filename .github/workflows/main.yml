@@ -45,4 +45,4 @@ jobs:
         path: files-to-deploy
       
     - name: Deploy aws S3
-      run: aws s3 sync ./files-to-deploy s3://intensivedelphi --acl public-read --delete
+      run: aws s3 cp ./files-to-deploy s3://intensivedephi
