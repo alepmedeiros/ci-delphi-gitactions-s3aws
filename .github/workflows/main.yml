@@ -12,3 +12,12 @@ jobs:
         
       - name: Test unit
         run: c:\lixo\build.bat Test TesteUnitarioProjeto.dproj
+    
+  build:
+    needs: test
+    runs-on: [self-hosted, Windows, X64]
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Build aplication
+        run: c:\lixo\build.bat $GITHUB_WORKSPACE InensiveDelphi2020.dproj
