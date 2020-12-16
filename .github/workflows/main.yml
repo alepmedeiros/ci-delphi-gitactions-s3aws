@@ -21,11 +21,13 @@ jobs:
       
       - name: Build aplication
         run: c:\lixo\build.bat . InensiveDelphi2020.dproj
+        run: cd Win32\Debug\
+        run: "C:\Program Files\7-Zip\7z.exe" a IntensiveDelphi2020.zip InensiveDelphi2020.exe
         
       - uses: actions/upload-artifact@v2
         with:
           name: build
-          path: Win32\Debug\InensiveDelphi2020.exe
+          path: Win32\Debug\IntensiveDelphi2020.zip
           
   deploy:
     needs: build
