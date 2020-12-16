@@ -23,7 +23,7 @@ jobs:
         run: c:\lixo\build.bat . IntensiveDelphi2020.dproj
         
       - name: Compact archive
-        run: cd Win32\Debug; %ProgramFiles%\7-Zip\7z.exe a IntensiveDelphi2020.zip IntensiveDelphi2020.exe
+        run: cd Win32\Debug; C:\Program Files\7-Zip\7z.exe a IntensiveDelphi2020.zip IntensiveDelphi2020.exe
         
       - uses: actions/upload-artifact@v2
         with:
