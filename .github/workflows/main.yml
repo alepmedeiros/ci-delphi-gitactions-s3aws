@@ -21,6 +21,8 @@ jobs:
       
       - name: Build aplication
         run: c:\lixo\build.bat . IntensiveDelphi2020.dproj
+        
+      - name: Compact archive
         run: compact.bat
         
       - uses: actions/upload-artifact@v2
