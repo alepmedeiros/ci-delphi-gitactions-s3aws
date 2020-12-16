@@ -25,7 +25,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: build
-          path: Win32\Debug\IntensiveDelphi2020.exe
+          path: Win32\Debug\InensiveDelphi2020.exe
           
   deploy:
     needs: build
