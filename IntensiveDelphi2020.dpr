@@ -1,4 +1,4 @@
-program InensiveDelphi2020;
+program IntensiveDelphi2020;
 
 uses
   Vcl.Forms,

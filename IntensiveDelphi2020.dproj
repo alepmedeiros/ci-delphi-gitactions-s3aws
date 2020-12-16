@@ -3,7 +3,7 @@
         <ProjectGuid>{CD51D194-F99F-45C7-A697-B111B0FA03AE}</ProjectGuid>
         <ProjectVersion>18.8</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
-        <MainSource>InensiveDelphi2020.dpr</MainSource>
+        <MainSource>IntensiveDelphi2020.dpr</MainSource>
         <Base>True</Base>
         <Config Condition="'$(Config)'==''">Debug</Config>
         <Platform Condition="'$(Platform)'==''">Win32</Platform>
@@ -57,7 +57,7 @@
         <Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
-        <SanitizedProjectName>InensiveDelphi2020</SanitizedProjectName>
+        <SanitizedProjectName>IntensiveDelphi2020</SanitizedProjectName>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;RESTComponents;DBXInterBaseDriver;vclactnband;ACBr_NF3e;vclFireDAC;ACBr_TEFD;ACBr_SATWS;tethering;svnui;FireDACADSDriver;ACBr_BPeDabpeESCPOS;ACBr_BPe;ACBr_MDFeDamdfeRL;ACBr_EDI;vcltouch;ACBr_NFe;ACBr_ONE;vcldb;bindcompfmx;svn;inetdb;ACBr_NFeDanfeESCPOS;ACBr_Diversos;ACBr_LCDPR;fmx;FireDACIBDriver;fmxdae;JunoApi4Delphi;ACBr_Ponto;dbexpress;IndyCore;vclx;dsnap;FireDACCommon;ACBr_SATExtratoRL;RESTBackendComponents;ACBR_DeSTDA;VCLRESTComponents;ACBr_Reinf;soapserver;ACBr_SAT;vclie;bindengine;DBXMySQLDriver;CloudService;ACBr_PAF;FireDACMySQLDriver;ACBr_SATECFVirtual;ACBr_Sintegra;FireDACCommonODBC;FireDACCommonDriver;ACBr_GNRE;ACBr_ADRCST;inet;IndyIPCommon;bindcompdbx;ACBr_TCP;ACBr_CTeDacteRL;vcl;IndyIPServer;ACBr_CTe;ACBr_SATExtratoESCPOS;TBGWebCharts;IndySystem;ACBr_NFeDanfeRL;ACBr_Integrador;dsnapcon;ACBre_Social;FireDACMSAccDriver;fmxFireDAC;vclimg;ACBr_SPEDImportar;FireDAC;ACBr_SPED;ACBr_MDFe;ACBr_Comum;ACBr_BoletoRL;FireDACSqliteDriver;FireDACPgDriver;ACBr_LFD;ACBr_GNREGuiaRL;soaprtl;DbxCommonDriver;ACBr_CIOT;ACBr_NFSeDanfseRL;xmlrtl;soapmidas;fmxobj;vclwinx;ACBr_OpenSSL;rtl;DbxClientDriver;CustomIPTransport;vcldsnap;ACBr_Convenio115;bindcomp;appanalytics;ACBr_Serial;IndyIPClient;frce;bindcompvcl;GridSystem;ACBr_BlocoX;dbxcds;VclSmp;ACBr_NFCeECFVirtual;adortl;ACBr_Boleto;ACBr_ANe;dsnapxml;ACBr_SEF2;dbrtl;IndyProtocols;inetdbxpress;ACBr_NFSe;ACBr_NF3eDANF3eESCPOS;ACBr_MTER;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
@@ -121,13 +121,13 @@
         <BorlandProject>
             <Delphi.Personality>
                 <Source>
-                    <Source Name="MainSource">InensiveDelphi2020.dpr</Source>
+                    <Source Name="MainSource">IntensiveDelphi2020.dpr</Source>
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="Win32\Debug\InensiveDelphi2020.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="Win32\Debug\IntensiveDelphi2020.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
-                        <RemoteName>InensiveDelphi2020.exe</RemoteName>
+                        <RemoteName>IntensiveDelphi2020.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
