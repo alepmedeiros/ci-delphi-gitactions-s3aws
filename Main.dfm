@@ -19,7 +19,6 @@ object frmMain: TfrmMain
     Width = 121
     Height = 21
     TabOrder = 0
-    Text = 'Edit1'
   end
   object Edit2: TEdit
     Left = 135
@@ -27,7 +26,6 @@ object frmMain: TfrmMain
     Width = 121
     Height = 21
     TabOrder = 1
-    Text = 'Edit2'
   end
   object Edit3: TEdit
     Left = 262
@@ -35,7 +33,6 @@ object frmMain: TfrmMain
     Width = 121
     Height = 21
     TabOrder = 2
-    Text = 'Edit3'
   end
   object Button1: TButton
     Left = 308
