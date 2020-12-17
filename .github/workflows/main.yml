@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
-      - name: Test Unit
+      - name: Teste Unit
         run: c:\lixo\build.bat Test TesteUnitarioProjeto.dproj
     
   build:
